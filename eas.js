@@ -10,3 +10,12 @@ for (i = 0; i < 256; i++) {
   square.classList.add("square");
   document.querySelector(".container").appendChild(square);
 }
+// Event of hovering
+document.querySelectorAll(".square").forEach((square) => {
+  square.addEventListener("mouseover", changeColor);
+});
+
+// color change function
+function changeColor(e) {
+  e.target.classList.add("hovered");
+}

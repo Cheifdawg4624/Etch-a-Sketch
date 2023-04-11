@@ -15,3 +15,7 @@ body {
   background-color: antiquewhite;
   height: 45px;
 }
+
+.hovered {
+  background-color: black;
+}
